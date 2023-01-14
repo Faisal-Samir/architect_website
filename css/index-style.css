@@ -322,8 +322,38 @@ body {
 
 .extra-part-container{
     margin: 0 170px;
-    border: 2px solid green;
     margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+.extra-part-image{
+    text-align: center;
+}
+.extra-part-image img{
+    width: 30%;
+    height: 30%;
+}
+
+.extra-design h2{
+    position: absolute;
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 40px;
+    left: 364px;
+    color: white;
+    text-shadow: 5px 5px #509aa7
+}
+
+.extra-design-name h2{
+    position: absolute;
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    left: 705px;
+    top: 200px;
+    color: white;
+    text-shadow: 5px 5px #509aa7
 }
 
 .footer {
