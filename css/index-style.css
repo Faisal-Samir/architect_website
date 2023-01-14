@@ -203,7 +203,7 @@ body {
     height: 95%;
 }
 
-.experience-btn{
+.experience-btn {
     background: #FF900E;
     color: #FFFFFF;
     border: 0;
@@ -213,7 +213,7 @@ body {
     border-radius: 8px;
 }
 
-.experience-btn .btn-written{
+.experience-btn .btn-written {
     padding: 25px;
 }
 
@@ -226,4 +226,55 @@ body {
 .experience-btn .btn-written p {
     font-weight: 500;
     font-size: 25px;
+}
+.some-facts{
+    margin-bottom: 180px;
+}
+
+.some-facts-container {
+    margin: 0 170px;
+}
+
+.some-fact-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.some-fact-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.some-fact-achievement {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.achievement ul {
+    display: flex;
+    column-gap: 125px;
+    text-align: center;
+}
+
+.achievement ul li {
+    list-style: none;
+    padding: 45px 0;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 245px;
+}
+
+.achievement ul li h4 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.achievement ul li p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
 }
