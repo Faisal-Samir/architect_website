@@ -1,0 +1,229 @@
+/* import Work Sans font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* for all type of font family is 'Work Sans' */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* nav bar design start */
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 0 200px;
+    align-items: center;
+}
+
+/* nav title style */
+.nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+
+/* nav elements design */
+.nav-elements ul {
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-elements ul li {
+    list-style: none;
+}
+
+.nav-elements ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* navigation design end*/
+
+/* banner design start */
+
+.banner-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.banner-details {
+    margin-bottom: 50px;
+    padding: 0 300px;
+}
+
+.banner-title {
+    margin-top: 0;
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.banner-picture img {
+    width: 75%;
+    height: 75%;
+    margin-bottom: 45px;
+}
+
+/* primary button design*/
+.primary-btn {
+    margin-top: 32px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+}
+
+/* main section design */
+
+.feature-section {
+    margin-top: 85px;
+    padding: 0 100px 0px 170px;
+}
+
+.feature-container {
+    display: flex;
+    column-gap: 120px;
+    align-items: center;
+    flex: 1;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.feature-pictures picture img {
+    width: 80%;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #727272;
+}
+
+.feature-title span {
+    color: #131313;
+    font-weight: 700;
+}
+
+.feature-title .feature-word {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-description {
+    margin-top: 25px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.second-feature-section {
+    margin: 130px 0;
+}
+
+.second-feature-container {
+    margin: 0 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+
+    /* for button issue */
+    position: relative;
+}
+
+.second-feature-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.second-feature-title-description {
+    margin-top: 25px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.second-feature-details {
+    padding-top: 25px;
+}
+
+.second-feature-detail-part {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.second-feature-detail-part-work {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 40px 30px 30px;
+}
+
+.second-feature-work-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.second-feature-work-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.second-feature-image img {
+    width: 100%;
+    height: 95%;
+}
+
+.experience-btn{
+    background: #FF900E;
+    color: #FFFFFF;
+    border: 0;
+    position: absolute;
+    left: 550px;
+    top: 750px;
+    border-radius: 8px;
+}
+
+.experience-btn .btn-written{
+    padding: 25px;
+}
+
+.experience-btn .btn-written h3 {
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.experience-btn .btn-written p {
+    font-weight: 500;
+    font-size: 25px;
+}
