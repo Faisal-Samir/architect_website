@@ -208,8 +208,8 @@ body {
     color: #FFFFFF;
     border: 0;
     position: absolute;
-    left: 550px;
-    top: 750px;
+    left: 500px;
+    top: 780px;
     border-radius: 8px;
 }
 
@@ -318,6 +318,12 @@ body {
     mix-blend-mode: luminosity;
     /* convert the logo to grayscale */
     filter: grayscale(100%);
+}
+
+.extra-part-container{
+    margin: 0 170px;
+    border: 2px solid green;
+    margin-bottom: 100px;
 }
 
 .footer {
