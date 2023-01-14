@@ -227,7 +227,8 @@ body {
     font-weight: 500;
     font-size: 25px;
 }
-.some-facts{
+
+.some-facts {
     margin-bottom: 180px;
 }
 
@@ -277,4 +278,57 @@ body {
     color: #727272;
     font-weight: 600;
     font-size: 20px;
+}
+
+.sponsor-section {
+    margin-bottom: 130px;
+}
+
+.sponsor-container {
+    margin: 0 170px;
+}
+
+.sponsor-details {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.sponsor-lists {
+    display: flex;
+    column-gap: 110px;
+
+}
+
+.sponsor-item img {
+    width: 153.33px;
+    height: 50px;
+    mix-blend-mode: luminosity;
+    /* convert the logo to grayscale */
+    filter: grayscale(100%);
+}
+
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer-description {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 40px 0;
 }
