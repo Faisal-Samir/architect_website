@@ -424,11 +424,16 @@ body {
         margin: 0;
         text-align: center;
     }
+    .experience{
+        display: none;
+    }
     .achievement ul{
-        flex-direction: column;
-        row-gap: 30px;
-        align-items: center;
-        column-gap: 0;
+        
+        display: grid;
+        grid-template-columns: 1 fr;
+        grid-row-gap: 30px;
+        justify-items: center;
+        
     }
     .achievement ul li{
         width: 60%;
@@ -441,5 +446,9 @@ body {
     .sponsor-lists{
         flex-direction: column;
         row-gap: 20px;
+    }
+
+    .article{
+        display: none;
     }
 }
