@@ -334,11 +334,6 @@ body {
     height: 30%;
 }
 
-.extra-part-container:hover{
-    transform: rotate(-20deg);
-    transition: transform 0.5s;
-}
-
 .extra-design h2{
     position: absolute;
     font-size: 55px;
