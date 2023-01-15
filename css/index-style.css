@@ -209,7 +209,7 @@ body {
     border: 0;
     position: absolute;
     left: 520px;
-    top: 780px;
+    top: 820px;
     border-radius: 8px;
 }
 
@@ -266,6 +266,10 @@ body {
     border: 1px solid #FF900E;
     border-radius: 8px;
     width: 245px;
+}
+.achievement ul li:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: transform 0.5s ease-in-out;
 }
 
 .achievement ul li h4 {
