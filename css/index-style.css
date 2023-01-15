@@ -424,8 +424,10 @@ body {
         margin: 0;
         text-align: center;
     }
-    .experience{
-        display: none;
+    .experience-btn{
+        position: relative;
+        top: 40px;
+        left: 0;
     }
     .achievement ul{
         
@@ -447,8 +449,26 @@ body {
         flex-direction: column;
         row-gap: 20px;
     }
-
-    .article{
-        display: none;
+    .extra-part-container{
+        margin: 0;
     }
+    .extra-part-container:hover{
+        transform: rotate(360deg);
+        transition: transform 0.8s;
+    }
+    .extra-part-image img{
+        width: 75%;
+        height: 75%;
+    }
+    .extra-design h2{
+        position: relative;
+        top: -400px;
+        left: 0px;
+    }
+    .extra-design-name h2{
+        position: relative;
+        top: -200px;
+        left: 0px;
+    }
+
 }
